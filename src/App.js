@@ -1,5 +1,8 @@
 import React from "react";
 
+//Add Styling
+import "./styles/app.scss";
+
 //Add Components
 import Player from "./components/Player";
 import Song from "./components/Song";
