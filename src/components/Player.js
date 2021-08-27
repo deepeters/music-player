@@ -22,6 +22,7 @@ const Player = ({ audioRef, currentSong, isPlaying, setIsPlaying, setSongInfo, s
             Math.floor(time / 60) + ":" + ("0" + Math.floor(time % 60)).slice(-2)
         );
     };
+    
     const dragHandler = (e) => {
         audioRef.current.currentTime = e.target.value;
         setSongInfo({...songInfo, currentTime: e.target.value})
