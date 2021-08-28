@@ -24,6 +24,7 @@ const LibrarySong = ({song, songs, setCurrentSong, id, audioRef, isPlaying, setS
 
         //check if song is playing
         if (isPlaying) audioRef.current.play()
+        
 
     }
 
